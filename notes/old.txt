@@ -1,0 +1,182 @@
+pick difrent laung then python maby go,odin
+
+if _start._if.n and _start._else.n exsist it turns in to _start.n
+
+Pyright: Expression value is unused bether erro msg
+
+
+grafict ondkent via unitie pip line
+
+
+readme nl eu prite flags (still cool idea)
+
+gnome medeln als wacht op sudo password in onfuse window
+
+
+if a methon is prv but is part if traid it cab stil be acsest by traidd
+
+one space betweenn numder/var
+
+to type fn in type def
+
+
+als een var word gefreet word de value none
+
+Collatz Conjecture math graph view
+
+fasm vs nasm
+
+defer for if blocks
+
+
+data types
+linear
+homogeneous
+declartion
+initialtion
+O time competi
+
+synrac prbleem
+
+you dont nedd abstaction at runtime jasper eijpe 2024-2-10
+
+https://www.youtube.com/watch?v=niqqm1DRTkE
+
+ifdo if any if or elif is hid run iddo blok
+intrinsic expression statement stack
+
+
+grahf dup of program Graphviz
+if can go in while statmen
+while statmen can go in if stetment
+
+
+-- voor iets
+
+oude antekingen:
+
+for emty iter blok
+
+
+'''#0b1011 0b01
+#syscal()
+#quit()
+
+#syscal(1,1,'0',2)
+
+#q=1+1
+
+#syscal(0x3c,q)
+
+# syscal(
+#  03
+#  ,
+#  4
+#  ,5)
+#syscal( )
+#3()3
+#syscal(4,1,'helo wowrd\n'
+#,1)
+
+##
+fn len(str q)int:
+ i=0
+ while true:
+  i+=1
+  if q[i]==0:rtn i
+
+q='helo wowrd'
+syscal(4,1,q+'\n',len(q))
+syscall(60,0)
+##
+
+'''
+'''
+var
+num
+oprt
+
+
+
+echluwat in while loop envult while loop expren now inst of ent of loop
+'''
+
+
+
+''''
+1
+code:
+mov rax,1
+'''
+
+'''
+def n,v,t ; q=1
+set n,v,t ; q=1
+cal n,arg1-∞ ; q(3) 3-5
+'''
+
+
+
+''
+a cpu arcget whit pc dat heve difet speedts
+8,16,32,64 bit mode
+zf nf vf sb sp
+
+dst mem[arg]
+src arg=mem[arg], arg
+
+set dst,src
+jmp scr
+add dst,scr,src
+sud dst,scr,src
+jmz scr
+jmn scr
+cmp scr scr
+push src
+pop dst
+cal
+ret
+nop
+'''
+
+
+"""
+ 
+elif v
+str v
+print v
+true/false v
+while v
+ints v
+++ v
+break v
+vars v
+opartions order v
+
+chanse var to defind v
+
+input v
+
+do while
+plus v
+
+maby at are as type vor (){}[]
+maby (None,'(') (...),..., (None,')') to delt 
+
+alow numder in var name v
+fix argem len tjeker v
+hex rework v
+coments rework v
+fix loop when {()}
+
+leabel/jmp v
+asm str v
+continue
+c
+fuc def
+
+opartions order bracets v
+
+str vars
+
+type tjeck at run time

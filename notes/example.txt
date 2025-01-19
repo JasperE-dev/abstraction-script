@@ -1,0 +1,641 @@
+syscall.as:
+
+enum sysnum{
+    read:64=0
+    write
+    open
+    close
+    stat
+    fstat
+    lstat
+    poll
+    lseek
+    mmap
+    mprotect
+    munmap
+    brk
+    rt_sigaction
+    rt_sigprocmask
+    rt_sigreturn
+    ioctl
+    pread64
+    pwrite64
+    readv
+    writev
+    access
+    pipe
+    select
+    sched_yield
+    mremap
+    msync
+    mincore
+    madvise
+    shmget
+    shmat
+    shmctl
+    dup
+    dup2
+    pause
+    nanosleep
+    getitimer
+    alarm
+    setitimer
+    getpid
+    sendfile
+    socket
+    connect
+    accept
+    sendto
+    recvfrom
+    sendmsg
+    recvmsg
+    shutdown
+    bind
+    listen
+    getsockname
+    getpeername
+    socketpair
+    setsockopt
+    getsockopt
+    clone
+    fork
+    vfork
+    execve
+    exit
+    wait4
+    kill
+    uname
+    semget
+    semop
+    semctl
+    shmdt
+    msgget
+    msgsnd
+    msgrcv
+    msgctl
+    fcntl
+    flock
+    fsync
+    fdatasync
+    truncate
+    ftruncate
+    getdents
+    getcwd
+    chdir
+    fchdir
+    rename
+    mkdir
+    rmdir
+    creat
+    link
+    unlink
+    symlink
+    readlink
+    chmod
+    fchmod
+    chown
+    fchown
+    lchown
+    umask
+    gettimeofday
+    getrlimit
+    getrusage
+    sysinfo
+    times
+    ptrace
+    getuid
+    syslog
+    getgid
+    setuid
+    setgid
+    geteuid
+    getegid
+    setpgid
+    getppid
+    getpgrp
+    setsid
+    setreuid
+    setregid
+    getgroups
+    setgroups
+    setresuid
+    getresuid
+    setresgid
+    getresgid
+    getpgid
+    setfsuid
+    setfsgid
+    getsid
+    capget
+    capset
+    rt_sigpending
+    rt_sigtimedwait
+    rt_sigqueueinfo
+    rt_sigsuspend
+    sigaltstack
+    utime
+    mknod
+    uselib
+    personality
+    ustat
+    statfs
+    fstatfs
+    sysfs
+    getpriority
+    setpriority
+    sched_setparam
+    sched_getparam
+    sched_setscheduler
+    sched_getscheduler
+    sched_get_priority_max
+    sched_get_priority_min
+    sched_rr_get_interval
+    mlock
+    munlock
+    mlockall
+    munlockall
+    vhangup
+    modify_ldt
+    pivot_root
+    _sysctl
+    prctl
+    arch_prctl
+    adjtimex
+    setrlimit
+    chroot
+    sync
+    acct
+    settimeofday
+    mount
+    umount2
+    swapon
+    swapoff
+    reboot
+    sethostname
+    setdomainname
+    iopl
+    ioperm
+    create_module
+    init_module
+    delete_module
+    get_kernel_syms
+    query_module
+    quotactl
+    nfsservctl
+    getpmsg
+    putpmsg
+    afs_syscall
+    tuxcall
+    security
+    gettid
+    readahead
+    setxattr
+    lsetxattr
+    fsetxattr
+    getxattr
+    lgetxattr
+    fgetxattr
+    listxattr
+    llistxattr
+    flistxattr
+    removexattr
+    lremovexattr
+    fremovexattr
+    tkill
+    time
+    futex
+    sched_setaffinity
+    sched_getaffinity
+    set_thread_area
+    io_setup
+    io_destroy
+    io_getevents
+    io_submit
+    io_cancel
+    get_thread_area
+    lookup_dcookie
+    epoll_create
+    epoll_ctl_old
+    epoll_wait_old
+    remap_file_pages
+    getdents64
+    set_tid_address
+    restart_syscall
+    semtimedop
+    fadvise64
+    timer_create
+    timer_settime
+    timer_gettime
+    timer_getoverrun
+    timer_delete
+    clock_settime
+    clock_gettime
+    clock_getres
+    clock_nanosleep
+    exit_group
+    epoll_wait
+    epoll_ctl
+    tgkill
+    utimes
+    vserver
+    mbind
+    set_mempolicy
+    get_mempolicy
+    mq_open
+    mq_unlink
+    mq_timedsend
+    mq_timedreceive
+    mq_notify
+    mq_getsetattr
+    kexec_load
+    waitid
+    add_key
+    request_key
+    keyctl
+    ioprio_set
+    ioprio_get
+    inotify_init
+    inotify_add_watch
+    inotify_rm_watch
+    migrate_pages
+    openat
+    mkdirat
+    mknodat
+    fchownat
+    futimesat
+    newfstatat
+    unlinkat
+    renameat
+    linkat
+    symlinkat
+    readlinkat
+    fchmodat
+    faccessat
+    pselect6
+    ppoll
+    unshare
+    set_robust_list
+    get_robust_list
+    splice
+    tee
+    sync_file_range
+    vmsplice
+    move_pages
+    utimensat
+    epoll_pwait
+    signalfd
+    timerfd_create
+    eventfd
+    fallocate
+    timerfd_settime
+    timerfd_gettime
+    accept4
+    signalfd4
+    eventfd2
+    epoll_create1
+    dup3
+    pipe2
+    inotify_init1
+    preadv
+    pwritev
+    rt_tgsigqueueinfo
+    perf_event_open
+    recvmmsg
+    fanotify_init
+    fanotify_mark
+    prlimit64
+    name_to_handle_at
+    open_by_handle_at
+    clock_adjtime
+    syncfs
+    sendmmsg
+    setns
+    getcpu
+    process_vm_readv
+    process_vm_writev
+    kcmp
+    finit_module
+    sched_setattr
+    sched_getattr
+    renameat2
+    seccomp
+    getrandom
+    memfd_create
+    kexec_file_load
+    bpf
+    execveat
+    userfaultfd
+    membarrier
+    mlock2
+    copy_file_range
+    preadv2
+    pwritev2
+    pkey_mprotect
+    pkey_alloc
+    pkey_free
+    statx
+}
+
+pub syscall(num:sysnum)64{
+	fasm'syscall'
+	ret
+}
+
+
+pub syscall(num:sysnum, arg0:64)64{
+	fasm'
+	push rdi
+	mov rdi,rbx
+	syscall
+	pop rdi
+	'
+	ret
+}
+
+
+pub syscall(num:sysnum, arg0:64, arg1:64)64{
+	fasm'
+	push rsi
+	push rdi
+	mov rdi,rbx
+	mov rsi,rcx
+	syscall
+	pop rdi
+	pop rsi
+	'
+	ret
+}
+
+
+pub syscall(num:sysnum, arg0:64, arg1:64, arg2:64)64{
+	fasm'
+	push rsi
+	push rdi
+	mov rdi,rbx
+	mov rsi,rcx
+	syscall
+	pop rdi
+	pop rsi
+	'
+	ret
+}
+
+pub syscall(num:sysnum, arg0:64, arg1:64, arg2:64, arg3:64)64{
+	fasm'
+	push r10
+	push rdi
+	mov rdi, rbx
+	mov r10, rsi
+	mov rsi, rcx
+	syscall
+	pop rdi
+	pop r10
+	'
+	ret
+}
+
+
+pub syscall(num:sysnum, arg0:64, arg1:64, arg2:64, arg3:64, arg4:64)64{
+	fasm'
+	push r8
+	push r10
+	mov r8,  rdi
+	mov rdi, rbx
+	mov r10, rsi
+	mov rsi, rcx
+	syscall
+	pop r10
+	pop r8
+	'
+	ret
+}
+
+pub syscall(num:sysnum, arg0:64, arg1:64, arg2:64, arg3:64, arg4:64, arg5:64)64{
+	fasm'
+	push r9
+	push r10
+	mov r9,  r8
+	mov r8,  rdi
+	mov rdi, rbx
+	mov r10, rsi
+	mov rsi, rcx
+	syscall
+	pop r10
+	pop r9
+	'
+	ret
+}
+
+fn exit(code:8)noReturen:
+    syscall(syscallnum.exit, code)
+
+
+prv type fd{
+    self:64
+    pub fn write(file:fd, buffer:u8[], size:u64):
+	syscall(sysnums.write, file, bufer, size)
+	ret
+    
+}
+
+
+
+const STDIN=fd(0)
+const STDOUT=fd(1)
+const STDERR=fd(2)
+
+EOF
+
+main.as:
+
+
+import syscalls as sys
+
+axiom <T:size>type dynArray
+   length:u64
+   prv capacity:u64
+   prv kind:T
+   data:void*
+   fn __init(self){}
+   fn __del(self){}
+
+axiom <T:size>type array
+   cont length:u64
+   prv kind:T
+   data:void*
+   fn __init(self){}
+   fn __del(self){}
+
+axiom type utf-8:
+    data:u8[]
+    pub fn len(self:str)u64{
+       #todo redo so len give amount of chrs not len of memory 
+       return self.data.len
+    }
+
+opt +(left:impl number, richt:impl number)impl number{
+   fasm'
+   add rax,rbx
+   ret'
+}
+
+opt +(left:str, richt:str)str{
+   newstr:str=left
+   newstr.len+=richt.len
+   newstr.data.append(richt.data)
+   return newstr
+}
+
+fn print(msg:str){
+	sys.STDOUT.write(msg+'\n',msg.len+1)
+	ret
+}
+
+print('Hello, World!')
+sys.exit(0)
+
+EOF
+
+#print('Hello', 'world')
+#print('q',1)
+
+decleratsie:
+ fn
+ gen
+ keyword
+ opt
+ type
+ = 
+
+statmens:
+ return
+ labels
+ if elif else
+ while
+ for
+ switch
+ import
+ @
+ coments
+
+syntax typs:
+ str '' r'\' '\xf7'
+ num 1 0xa 0b10 234.3_3 
+ list []
+ tupels () ?
+ dict {}
+
+memory acsesing:
+ indexing []
+ dot .
+
+type notesion:
+ typ
+ typ[]
+ *typ
+ &typ
+ !typ typ or erro
+ ?typ typ or none
+ ty|pt ty or pt
+
+enum name:
+ name
+ name=val
+ name:type
+
+fn q
+q(1,2)
+opt w(var_l,var_r)
+1 w 2
+
+convention:
+ camelCase
+ by deafalt beginer freindlu but also alows for stricter/low level prograing
+ haloDitIsEenVoorbelt
+ opt left,richt
+ fn T A T B
+function returns bool(s) name is a qwestion
+ q w e r zijn tmp vars
+ nani voor error value?
+
+
+if ..{..}
+#q
+elif ..{q ..}
+else {q ..}
+
+if v=1{}
+elif v=2{}
+elif v=3{
+ if w=1{}
+ elif w=2{}
+ else{error}
+}
+else{error}
+
+if v=1{}
+elif v=2{}
+elif v=3 and w=1{}
+elif v=3 and w=2{}
+else{error}
+
+libs:
+ hi level
+  .
+ low level
+  . -> ::
+ minamel
+  syscall only
+
+
+
+triat t:
+ t()int
+
+triat e:
+ e()int
+type q:
+ fn w(){}
+ imp e:
+  fn r()int{}
+  fn e()int
+
+
+
+oude:
+
+
+from typs import T
+
+fn name( int|str arg1,agr2=5)
+gen yield
+opt (none, int)
+keyword (str, none)
+clousjesr
+enums
+
+ams
+if elif else
+while
+label
+break
+continue
+
+import '/lib.as' as lib
+* = lib.std.*
+
+t,v
+type 
+
+type int8 1:
+ aloc 1
+ opt + 
+
+type int16 2:
+ aloc 2
+ opt +
+
+
+
+opt + (int,none)
+opt + (int,int)

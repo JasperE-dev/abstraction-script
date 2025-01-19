@@ -1,0 +1,36 @@
+q:utf8='qwert' -> 
+[dyn]u8['qwert'] -> 
+ ptr=fasm"data: db 0,0,0,0,0,0,0,0,0" # defualt cap of 8
+ data=<u8>dynArray{len:0,data:ptr}
+ q=utf8{data}
+
+
+q:utf8 -> 
+q:utf8=utf8'' ->
+[dyn]u8[''] -> 
+ptr=fasm"data: db 0,0,0,0,0,0,0,0,0" # defualt cap of 8
+data=<u8>dynArray{len:0,data:ptr}
+q=utf8{data}
+
+
+
+[_]u8:utf-8[1:'1']hasmap ->
+[1]u8:utf-8[1:'1']hasmap ->
+ptr=fasm"data: dq " # todo 
+<u8,utf-8>hasmap{len:1,data:ptr}
+
+
+1 -> fasm"code: mov rax, 1"
+
+q=1 ->
+q:int=1 ->
+fasm"data: q dq 1"
+
+q=expresion # expect it to have a raturn value->
+q:typeof(expresion)=expresion ->
+fasm"data: q {sizeof(typeof(expresion))}"
+expresion # expect return to by in rax
+fasm"code: mov [q], rax"   
+
+
+

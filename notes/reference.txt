@@ -1,0 +1,162 @@
+https://curiouscoding.nl/posts/static-search-tree snap ik dit na 5 jaar(2030)
+readelf cmd, nm get symbols
+
+
+https://linux.die.net/man/4/tty_ioctl handy for termois
+SPIR voor gpu programing
+
+ioctl(fd, TCFLSH, n); 0 flush receive ,1 flush transmit,2 flush both
+
+https://github.com/beto-bit/mt_asm threads expmlel
+https://youtu.be/yzvHzfp2APc safty arm encrpit ponter
+
+https://www.youtube.com/shorts/ZRjmGq1gAEQ fu*k js
+afgelijde is rc=dy/dx of dx/dt van raaklijn op een punt van een functie (grafiek snijden of raaken)
+
+n!=n*(n-1)!
+
+checksec --file
+
+
+utf8 vailtion unfinsed vs unfaild https://www.youtube.com/watch?v=iQRfzQQrHfo&pp=ygUdSmF2YVNjcmlwdCBGYWlsZWQgVGhlc2UgVGVzdHM%3D https://datatracker.ietf.org/doc/html/rfc3629
+
+https://www.youtube.com/watch?v=9yfWkUpYuq8 numder have units to this is for angels
+
+
+https://www.youtube.com/shorts/QctflSpmEjc A(n)
+https://www.youtube.com/watch?v=PDg8EdR28NU ! !!
+https://www.youtube.com/watch?v=cDr_y0kGddA&pp=ygUaSG93IE1hdGggQmVjb21lcyBEaWZmaWN1bHQ%3D cos sin i
+
+
+https://www.youtube.com/watch?v=kfddm3oWMGk async
+
+you can only acalrate if you can reach the opbect https://www.youtube.com/watch?v=Vitf8YaVXhc
+https://www.youtube.com/watch?v=2DrjQBL5FMU syscals uitgelekt
+metasyntactic variable: foo bar baz qux thud
+
+
+https://www.youtube.com/@nobs_code/videos some aloghtems
+https://www.youtube.com/watch?v=5Mm_dRQPXus&list=TLPQMTUwOTIwMjSv_amKpPjvHw&index=2 micht help
+
+
+fust ascii only later https://www.youtube.com/watch?v=ut74oHojxqo graphemes
+
+https://www.youtube.com/shorts/DJxEYOC8IRc var swap
+
+https://www.youtube.com/watch?v=zBNbIIpRzyE shell
+https://mmsp.ece.mcgill.ca/Documents/AudioFormats/ audio file formate for stuct
+
+https://www.youtube.com/watch?v=83M5-NPDeWs&pp=ygUWbGludXggc2lnbmFscyBhc3NlbWJseQ%3D%3D signal in c
+
+https://opensource.apple.com/source/xnu/xnu-1504.3.12/bsd/kern/syscalls.master mac os syscalls
+
+https://www.json.org/json-nl.html json doc
+https://www.youtube.com/watch?v=qWjhuXBrBfg cvs, WSV, json, oml, tbl
+
+https://www.youtube.com/watch?v=vjtm-a0xqB8 memeroy megement
+https://www.youtube.com/watch?v=p1EogAEktZ4 micht work on linux
+
+https://www.youtube.com/watch?v=Xo5VXTRoL6Q lsp
+https://youtu.be/wwZwzilkh8g evry match content
+
+
+64-bit register Lower 32-bits Lower 16-bits Lower 8-bits
+ rax                   eax           ax           al
+ rbx                   ebx           bx           bl
+ rcx                   ecx           cx           cl
+ rdx                   edx           dx           dl
+ rsi                   esi           si           sil
+ rdi                   edi           di           dil
+ rbp                   ebp           bp           bpl
+ rsp                   esp           sp           spl
+ r8                    r8d           r8w          r8b
+ r9                    r9d           r9w          r9b
+ r10                   r10d          r10w         r10b
+ r11                   r11d          r11w         r11b
+ r12                   r12d          r12w         r12b
+ r13                   r13d          r13w         r13b
+ r14                   r14d          r14w         r14b
+ r15                   r15d          r15w         r15b
+
+
+https://www.youtube.com/watch?v=0ADhQEGCVUQ game of life in asm
+
+tips https://www.youtube.com/watch?v=-MbTj8DGOP0&t=290s
+type system https://www.youtube.com/watch?v=jMIj893JJBg
+match lib https://www.youtube.com/watch?v=_lh5DpKq3Ts
+
+() parentheses [] breckts {} curly breckts 
+https://www2.ccs.neu.edu/research/gpc/VonaUtils/vona/terminal/vtansi.htm, https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797 termian control
+tools: https://www.youtube.com/watch?v=7VYP_2t4CJw
+insprision: https://www.youtube.com/watch?v=40JzyaOYJeY https://www.youtube.com/@CodeAesthetic/featured  https://www.youtube.com/@CoreDumpped/videos
+
+
+inspeier from zig and rust
+
+signel hadeling https://www.youtube.com/watch?v=GmrDwSd-kW4
+
+install
+
+
+oficeler impmenatsie met ast https://www.youtube.com/watch?v=myZcNjKcVGw
+
+
+string indexing https://www.youtube.com/watch?v=Zs-pS-egQSs&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8&index=8 16:20
+
+
+http://devernay.free.fr/hacks/chip8/C8TECH10.HTM httr//www.youtube.com/watch?v=zltgXvg6r3k&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=/C8TECH10.HTM9 6:42 remander prcram
+
+https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics inspration
+
+oude:
+
+#https://www.youtube.com/watch?v=wLXIWKUWpSs&list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe x86 tutoriol
+# nasm -f elf64 IF.txt -o OF.o
+# gcc -z  noexecstack  -m64 OF.o -o OFnotstript
+# install -s OFnotstript OF
+
+# linux 86X-64 only
+#nano test.ams&&nasm -f elf64 test.ams -o test.o &&d -z noexecstack -m elf_x86_64  test.o test.o &&./a.out
+#nasm out.asm -f elf64&&ld out.o&&./a.out 
+# gcc -static
+
+#rax - register a extended
+#rbx - register b extended
+#rcx - register c extended
+#rdx - register d extended
+#rbp - register base pointer (start of stack)
+#rsp - register stack pointer (current location in stack, growing downwards)
+#rsi - register source index (source for data copies)
+#rdi - register destination index (destination for data copies)
+#xmm0 128
+#r8 r9 r10 r11 r12 r13 r14 r15 
+
+
+#'':{'args':(),'code':""""""},
+
+#;mov rax, [rsp+1];{arg0}
+#;mov rdi, [rsp+2];{arg1}
+#;mov rsi, [rsp+3];{arg2}
+#;mov rdx, [rsp+4];{arg3}
+#;mov r10, [rsp+5];{arg4} 
+#;mov r8, [rsp+6];{arg5} 
+#;mov r9, [rsp+7];{arg6}
+#;pop [rsp+7]
+#;mov rsp, rsp+7 ;noob
+
+#;int 0x80
+
+#syscal take 7
+
+#je ; ==
+#jne; !=
+#jg ; >
+#jge; >=
+#jl ; <
+#jle; <=
+
+rN rNd rNw
+
+https://github.com/openbsd/src/blob/master/sys/sys/termios.h
+https://www.youtube.com/watch?v=DMQ_HcNSOAI&t=1120s x64 register and hasmap
+https://gpfault.net/posts/asm-tut-1.txt.html fasm basics

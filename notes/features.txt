@@ -1,0 +1,366 @@
+
+literel vs expresion
+Q,w -> [q,w]
+
+jai apollo time ?
+
+1_2
+
+fasm macro [var], argument whit common
+
+pub/prv pub is publi for import export is c calebal
+memory mangment stack vs mmap odind delete
+arry decration odin [size]type{value,value}
+type name = value vs name:type=value
+odin type rune one unicode character, type char one ascii charchter 
+fn/function for body of code whit no side afects, proc/procedure for body of code whit side afects
+
+code rengions like in msvc
+for 64 i=0,10,i++ { -> for 64 i in range(0,10) {
+variadic function args
+use fasm macros please, hard decpendecie is oky for now
+inpute whit history for up arow
+
+utils ipv tools
+support optian raw mode ram adresing
+
+list romove midel by swaping wht end value en the pop
+compyler returns secments body
+saperation of unhadelt code and code blocks
+genResuld insted of iterResuld
+
+targets: args x86_64 x86 arm arm32 6502 OS: linuc freebsd elf bios
+
+
+optianel code block 'skipt' under for/whil loops if never rany
+
+unreachable code is warning
+
+encrpit ponter
+
+klijn beetje gemeene compiler error msg
+triats auto tjeck if compatebel, interface namuwely tjeck compatebel
+
+editor/autocompli/laungs server config via compiler cli
+arg1,arg2 -> {...} 
+list[1;2,5;6]
+in if condtion , is and
+
+#[ or @#for pre-prosecer
+get'ers and set'ers visual wen in use amd when normal = is used
+asm IR voor x86 x86_64 arm arm64 6502 riscv
+
+tokentype expresion lexem{vale:any, type:expresion_enum}
+typeSignature(baseType:typeSignature, modifire:modifire_enum)
+context whit __init__ for isgen isfn
+
+reede voor code tusen if en elif/else
+
+return can have args ret cant
+list[y][x] -> list[y*widt+x]
+node lib explot tracking
+
+
+true fale yes no on off like in hyperland
+
+async vs concurentsie vs threads vs fork/clone
+
+var swap
+
+fn [t v #autmaticly past to fn call](){}
+=== type qe
+is == isnt !=
+
+?enum same line same vule difrent name
+swift get set syntaxs
+named tupels vs dicts
+n..n n..<n
+jock in doc 'Guido zo lang je niet op wilder hept gestem blijve me vrienden\ndo{}while{}'
+
+v in vv i,v in vv overloat on teruern agrs
+
+f str {} or \() plus printf
+
+numder types :
+ Integers Z int
+ Natural N  uint
+ Real R     float
+ Rational Q frac (p:int/q:int)
+ Irrational I irr (float)
+ Imaginary NA im (ifloat)
+ Complex C com (a+bi)
+
+axioms are defind by the comiler and have asumpsion made by the comiler
+
+import lib.std20xx.* + src file
+
+declrasion are scop depent
+assing can go up scop via globel mekanik
+acsesing can alwes go up scop
+
+64 q # decler
+
+q 64 # unary opator
+
+type conversion system
+numder litrels are of type int
+string litels are of type str
+
+for parser
+# var is parsed not returnt, recursif parscall is scop depentet
+# tack fucn,type out of code block ant apent scop name at  beging
+
+
+float fix point
+deafuelt __init is ale the atubut as in type t{2 q\nfn __init(2 q){self.q=q}}
+optial let/let mut/const keyword
+copy/move/refren keyword
+
+q and w if q==false w soud not be read
+stdlib shout ba abstract from te platform
+
+t= compertypes
+switch case not outputen match cae wel outputent
+q?0 if q==0 ret 1 else ret q
+q=none q<num altijd waar
++= q=q+w =+ q=w+q
+
+
+golang protocol oriented programming
+signel gdscript
+add index type
+-L,-N voor args naar ld,nasm
+Shunting Yard Algorithm vs ast https://www.youtube.com/watch?v=unh6aK8WMwM
+add pading to print when cecursion
+true false 1 0 yes no on off
+
+thread specifik fps
+
+inpute whit blac/wite list,echo on/off
+maloc x vs bit nibel byte word dword qword
+elixer  expresion > expresion of expresion(expresion())
+
+gen fn var/plus
+gen opt and/+
+
+1 april x^^y tetration, pentation or hexation 
+
+
+[...gen] vs [*gen]
+overloed/shadowing vs muli type
+[x:y] [x|y+x]
+type covtion tussen uoniens
+2dlist[(int,int):(int,int)]
+fn return type syaing it never resurns
+NO main function reciert
+'where' porth
+generict vs triats 
+NO lazy evawtion
+link vs include vs import
+enum vs union
+direct pointers so no *
+n'' add 0x0
+match and expresion match
+dont chans pub fn sincters when optemising
+if lib not found ask for instalion
+GUIlib shoud by acsed by default
+
+
+defer alowd outside fn
+
+concurrency
+
+put O(n) in function docs whit disclamer
+
+matrix
+[1,2]
+|1,2|
+[1,2]
+print floets as fractions
+seltion for += -= ^= &=
+alow file to depen on files
+
+'here' get line num porth
+code'print({var})'
+keymap enum rust
+cmovge
+'hide' hide vallu for compiler
+eror msg
+libfuse
+sqllin
+hrlp fn
+convolution matlub
+
+var q,w -> var(q,w)
+
+file format outpute elf bin iso mdr exe
+nidel 0xn size
+defer zig
+contino valu arg for next fn
+break valu return valu for loop
+
+https://www.youtube.com/watch?v=3IAlJSIjvH0
+ arean aloc
+ string termnt and string count
+
+
+poem as sempel text
+sefiefsie var dat return moet woorde als fn indigt of returnt
+ifloat,ufloat
+return return
+
+optout auto lib linkng
+
+iter.next
+when(statmen){code} # sigenel
+
+templet string q'1' -> fn q(string:str){retuurn string}
+ascii'1' -> ascii{'1'}
+
+1.25e2 means 1.25 x 10², or 125.0. (swift)
+list.invers and list.toinvers can be hadelt via fn overwrite (javascript)
+
+
+[i;i+j]
+[i:j]
+
+
+oude:
+
+?? retuns recht if lefht is none
+
+
+print the line num of print call in debug mode
+
+
+"""
+var scop gloebel local block
+praslieNotImplementedError
+none const ovride
+"""
+
+''' IOL
+
+felosety
+Asembly Abstraction Script
+Input Logic Outpute
+.LAF # Logicol Abstraction File
+meta progreming
+compielt
+
+#intupetet
+#strict syntax check
+#lazy/stric compile optrmesion
+
+opject # o
+not opject oretet # not oo
+
+
+Inupt:input,filse
+Logic:#str,#comts,@vasr,func-call
+Output:print,filse
+
+Syntax:
+#varname
+#keywort
+~num 0x/0b
+#coment
+~str
+#operotor
+0xa->10
+0b10->2
+
+exucut:
+?assembly
+@opretors
+keywordes
+abstract syntax tree
+type definf
+1+1->add(1,1) not 1.__add__(1)
+if w=w e=e
+to ams or to c
+
+
+fietjers:
+
+litlid
+stdlid
+
+test make piet
+
+os or kernel
+
+funt() var+var no ; 
+
+q={x==1:´pasword´}
+q{x=3} erre
+
+ponter or revrense
+
+fn #fn name(args)->type :/{}
+gen #gen name(args)->iteretor :/{}
+opt #opt +(1/none,2/none)->tyoe :/{}
+
+opt zal de eigschap en dufalt code defineren class zal het toe pas op ijge opject
+
+skip int
+
+q.w
+*=q
+w
+
+dst=scr dst is een ponter scr is een value  
+
+var>>>out
+in<<<var
+
+fn (var=glodel_var var=var.glodel_var)
+
+<skip 1,erre:>
+
+import file/lid
+include file
+lid.libery.func/var
+fil.var/func
+
+bloean and binery
+ &/and
+ !/not
+ |/or
+ ^/xor
+i>>var
+var>>o
+
++ - * / () 
+~ roud
+.. ranger
+~= tjek type is zelfte
+
+__init__
+__update__
+__draw___
+__import__ [clat on import]
+'''
+
+opartions order:
+bracets 
+vars fn cals
+vars
+
+
+
+indentsion and parenthesis
+
+and or  & | are the same and work for number and bolians
+
+>= furft tjek grether den qp
+=> firft tjek ep then grether den
+
+??= php
+\ lua
+meer der stdout/in
+
+localit a clobel var in curent scop
+
+@platfom fn ...
+

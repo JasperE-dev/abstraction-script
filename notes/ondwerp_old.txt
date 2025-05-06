@@ -1,3 +1,6 @@
+end coal self-hostet compielt asambly abstrection
+
+inpute define expectit fromate
 what not to do https://youtu.be/2HwsrKlB5WU c is unsafe
 the nicht sky is brither then the darknes of my closd aeys
 result as value problem when nessted
@@ -10,15 +13,11 @@ genrel purpos means frontend,backend,games,ml,destop apps,drivers,o/ses,linux ht
 suport redox
 flexabilaty is key omdat yes/no depents on the context
  
+syscalls != winapi; generik desktop ipa==winapi
 
-array; list==da array; da typa at runtime via enum(type:typeInfo,val:any)
-globel context var for runtime whit context.argv and context.file name of doure and other use full stuf
-nob.as whit insationf for destop apps
 
-pip line:
-open file
-split elke char in to type word, numer, opt, syntexst
-wait to print on 9 may or free full program
+
+
 
 
 

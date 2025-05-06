@@ -1,3 +1,7 @@
+f'1{2}3' -> ?
+
+1+++2 mag niet (1++)+2 mag wel want ik ben lui maar ook diudelijker
+
 q:utf8='qwert' -> 
 [dyn]u8['qwert'] -> 
  ptr=fasm"data: db 0,0,0,0,0,0,0,0,0" # defualt cap of 8

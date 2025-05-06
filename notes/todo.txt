@@ -1,0 +1,28 @@
+school
+planing mnr rueling
+job surfing
+bio po
+
+mincraft
+fancepolls around piler spanw radis
+licht up arya and remove gras/sand
+
+code:
+coments
+floats
+
+types
+
+if
+else
+elseif
+
+loop
+break
+continue
+while
+do while
+for loop
+
+disgine nadenken over asmbly met betreking tot expresions en nadenk over versiple vand data zonder teveel teverliesen
+lexer coments

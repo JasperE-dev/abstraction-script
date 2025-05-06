@@ -1,3 +1,24 @@
+shadow keyword for when your shadowing a varriabel
+
+a<b<=c -> a<b && b<=c
+
+if statmen met daclaretion
+
+|> pipes
+
+60hz -> 1/60
+
+timeloop 60 fps {code} # whiat at the end to get to 60 fps
+
+include q.c q.o static/dynamic
+
+s64 singt, u64 un singt
+
+optianol flag reqyer function entry deafuld name=_start
+
+tjeck if file was chang via modifia date
+
+the only depecies of elfs shout be the syscalls them selfs
 
 literel vs expresion
 Q,w -> [q,w]

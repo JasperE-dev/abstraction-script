@@ -1,3 +1,16 @@
+https://github.com/brycebostwick/FixTheGulf
+
+ijgen gedigt als expmle txt file, 2007 als exmple port
+
+de mneszied is een prechtig vergif invindebel
+
+"just enjoy the sausage" tsoding 2025
+de sterkst over leeft betken samen werken en voor elk kaar zorgen
+
+split= ' \t\v\f'
+
+maby cal lexem a symbol omdat it self is a piece of info
+
 https://curiouscoding.nl/posts/static-search-tree snap ik dit na 5 jaar(2030)
 readelf cmd, nm get symbols
 

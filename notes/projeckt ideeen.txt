@@ -1,3 +1,15 @@
+https://www.youtube.com/watch?v=zWIsnrxL-Zc remake whit update files
+
+OS vurtiuel memmory mem[123+1]!=mem[124] mem[123+1]=mem[123][1] en /defautl dir for deafult configs
+
+AI to gen err msg
+
+gemini cienet/browser of gemini zonder tcp en ssl https://geminiprotocol.net/
+
+abstractio chat inspiert by wathapp, singnal, at protcool
+
+https://www.youtube.com/watch?v=u2Juz5sQyYQ whoud be cool to try out
+
 os indepent exe file
 libghossy terminal project
 

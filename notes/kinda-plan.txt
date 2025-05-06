@@ -1,0 +1,16 @@
+recursion
+controwl flow
+true/falsa
+type tjexk
+f string
+indexing
+coments
+
+pub by deafalt
+python colcetions for inparsion
+mut/const if not specefijte just invur it
+shalow clone forbiden
+dont move if not mut
+
+linear types studie
+
